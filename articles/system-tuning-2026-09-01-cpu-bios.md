@@ -379,7 +379,7 @@ WHEA、BugCheck、GPU driver / application failure、thermal limit、power limit
 
 今回は、同じ5 GHzでも、どの条件で使い、何V掛かり、何W使っているかまで測れるようになりました。
 
-## 次は5.1 / 5.2 GHzと長時間5 GHz
+## この時点で次に残っていた確認
 
 ただ、まだ完成ではありません。
 
@@ -396,21 +396,5 @@ Liquidが熱平衡まで上がったあとも、Vcore、CPU Power、温度、WHE
 最高クロックを追うより、使うところを太くする。
 
 この10900Kでは、今のところその方向がかなり良さそうです。
-
----
-
-## 主な参照記録
-
-- `experiments/2026-08-30-cpu-turbo-minus-one-bin-stability/`
-- `experiments/2026-08-30-ffxiv-tvb-53ghz-validation/`
-- `experiments/2026-08-30-ffxiv-tvb-adaptive-voltage-validation/`
-- `experiments/2026-08-30-tvb-voltage-optimizations-enabled-53ghz-validation/`
-- `experiments/2026-08-31-tvb-vf-point5-6-minus30mv-short-validation/`
-- `experiments/2026-08-31-ffxiv-tvb-vf-point5-6-minus40mv-long-duration-rerun/`
-- `experiments/2026-08-31-cpu-ratio-vf-point5-minus50mv/`
-- `experiments/2026-09-01-octvb-plus1-all-vf-auto-short/`
-- `experiments/2026-09-01-ffxiv-0901-3-manual-1v3-by-core-validation/`
-- `experiments/2026-09-01-ffxiv-0901-4-adaptive-by-core-validation/`
-- `experiments/2026-09-01-ffxiv-0901-5-adaptive-vf-offset-validation/`
 
 [← GPU編](./system-tuning-2026-09-01-gpu.md) / [索引](./system-tuning-2026-09-01-index.md) / [次: エピローグ →](./system-tuning-2026-09-01-ai-agent-epilogue.md)

@@ -1,6 +1,6 @@
 # 5年前と一番違ったのは、PCではなかった
 
-[← CPU・BIOS編](./system-tuning-2026-09-01-cpu-bios.md) / [索引](./system-tuning-2026-09-01-index.md)
+[← CPU・BIOS編](./system-tuning-2026-09-01-cpu-bios.md) / [索引](./system-tuning-2026-09-01-index.md) / [続編: ワット当たり性能へ →](./system-tuning-2026-09-03-cpu-efficiency.md)
 
 ここまで、ケース冷却、GPU、CPU・BIOSの3本に分けて書きました。
 
