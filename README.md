@@ -2,7 +2,7 @@
 
 自作PCの構成と、冷却、GPU、CPUを調整してきた過程をまとめています。設定値だけを並べるのではなく、何が気になり、どの条件で測り、結果をどう判断したのかを残すための公開版です。
 
-![現在使っているPCの内部構成](images/current-pc-interior.jpg)
+![現在使っているPCの内部構成](docs/images/current-pc-interior.jpg)
 
 ## まず読む
 

@@ -1,6 +1,6 @@
 # 現在使っているPC
 
-![現在使っているPCの内部構成](../images/current-pc-interior.jpg)
+![現在使っているPCの内部構成](images/current-pc-interior.jpg)
 
 このPCは、Fractal Design Define 7にCore i9-10900KとGeForce RTX 3080を搭載したWindowsのメイン機で、ゲームにも使っています。CPUは360 mmのNZXT Krakenで冷やしています。
 
