@@ -169,14 +169,4 @@ GPU 1905 MHz / 850 mV自体は、825 mVと違って短期ではGPU driver error�
 
 次は、5年前から使っていたCore i9-10900KのTurbo Ratioと電圧を、もう一度最初から調べ直します。
 
----
-
-## 主な参照記録
-
-- `experiments/2026-08-30-ffxiv-post-reboot-hypervisor-baseline/`
-- `experiments/2026-08-30-ffxiv-hypervisor-off-ab/`
-- `experiments/2026-08-30-ffxiv-gpu-vf-1905mhz-825mv-baseline/`
-- `experiments/2026-08-30-ffxiv-gpu-vf-1905mhz-850mv-baseline/`
-- `experiments/2026-08-30-ffxiv-gpu-vf-1905mhz-850mv-long-duration/`
-
 [← ケース・冷却編](./system-tuning-2026-09-01-case-cooling.md) / [索引](./system-tuning-2026-09-01-index.md) / [次: CPU・BIOS編 →](./system-tuning-2026-09-01-cpu-bios.md)

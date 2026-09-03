@@ -176,15 +176,4 @@ CPU thermal throttlingとpower limitは0です。
 
 ということで、次はGPUのV/F Curveを触ることにしました。
 
----
-
-## 主な参照記録
-
-- `experiments/2026-08-23-motherboard-kraken-gpu-50pct-candidate-ffxiv/`
-- `experiments/2026-08-29-ffxiv-air-guide-bottom-fan-stopped/`
-- `experiments/2026-08-29-ffxiv-air-guide-bottom-stopped-rear-100-side-panel-closed/`
-- `inventory/evidence/2026-08-30-kraken-cam-radiator-curve-user-observation.json`
-- `inventory/evidence/2026-08-30-kraken-cam-radiator-idle-noise-curve-user-observation.json`
-- `inventory/evidence/2026-08-30-kraken-cam-silent-pump-user-observation.json`
-
 [← 索引](./system-tuning-2026-09-01-index.md) / [次: GPU編 →](./system-tuning-2026-09-01-gpu.md)
