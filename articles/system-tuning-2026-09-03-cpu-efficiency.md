@@ -319,4 +319,4 @@ ChatGPTとの考察とCodexによる測定は、別々の作業ではなく、�
 
 FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.
 
-[← エピローグ](./system-tuning-2026-09-01-ai-agent-epilogue.md) / [索引](./system-tuning-2026-09-01-index.md) / [次: このPCの実力を4K最高品質で測る →](./system-tuning-2026-09-03-ffxiv-maximum-quality.md)
+[← エピローグ](./system-tuning-2026-09-01-ai-agent-epilogue.md) / [索引](./system-tuning-2026-09-01-index.md) / [次: FF14ベンチマークの4K最高品質で実力を測る →](./system-tuning-2026-09-03-ffxiv-maximum-quality.md)

@@ -1,4 +1,4 @@
-# 4K最高品質で、このPCの実力を測り直す
+# FF14ベンチマークを4K最高品質で回し、このPCの実力を測り直す
 
 [← CPU効率編](./system-tuning-2026-09-03-cpu-efficiency.md) / [索引](./system-tuning-2026-09-01-index.md)
 

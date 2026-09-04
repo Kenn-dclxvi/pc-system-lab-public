@@ -11,7 +11,7 @@
 | PCの構成と調整方針 | [現在使っているPC](docs/current-pc.md) |
 | 冷却からCPU調整までの流れ | [2026年 自作PCチューニング記録](articles/system-tuning-2026-09-01-index.md) |
 | CPU調整の現在の到達点 | [最適なコア数を探すところから、FF14で使う電力を選ぶところへ](articles/system-tuning-2026-09-03-cpu-efficiency.md) |
-| 現在のPCの4K性能と電力効率 | [4K最高品質で、このPCの実力を測り直す](articles/system-tuning-2026-09-03-ffxiv-maximum-quality.md) |
+| FF14ベンチマークで見る現在の4K性能と電力効率 | [FF14ベンチマークを4K最高品質で回し、このPCの実力を測り直す](articles/system-tuning-2026-09-03-ffxiv-maximum-quality.md) |
 | 公開している記事の一覧 | [記事一覧](articles/README.md) |
 
 この公開版には、個人情報や端末固有情報を含み得るEvent Log、Raw Data、ソフトウェア一覧、運用設定、完全な会話ログを含めていません。記事中の数値は、非公開の記録用リポジトリに保存した測定結果をもとにしています。
