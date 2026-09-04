@@ -27,4 +27,6 @@
 
 その長時間試験でCPU側の不安定性が見つかり、Core i9-10900KのTurbo、TVB、Adaptive Voltage、V/F Curveまで確認することになりました。最初からCPU電圧を調整するつもりだったわけではなく、ひとつずつ測った結果、見る範囲が広がった形です。
 
-詳しい経緯は[2026年 自作PCチューニング記録](../articles/system-tuning-2026-09-01-index.md)にまとめています。次は、現在進めているCPU電圧制御の結果も、条件と観測を分けて読める形にしたいと思います。
+詳しい経緯は[2026年 自作PCチューニング記録](../articles/system-tuning-2026-09-01-index.md)にまとめています。現在のCPUとGPUは、コア数に応じた倍率、倍率帯ごとのV/F Point、CPUの90 W上限、GPUの1890 MHz / 850 mVを組み合わせたところまでを、ひとまず基本形としています。
+
+その設定へ至るまでの続きは[CPU効率編](../articles/system-tuning-2026-09-03-cpu-efficiency.md)、現在のPCの能力を4K最高品質で見直した結果は[4K最高品質の記事](../articles/system-tuning-2026-09-03-ffxiv-maximum-quality.md)にまとめました。次は、完成した構成が実際の使用や別の負荷でどう動くかを、計測環境も含めて観測していきます。
