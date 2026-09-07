@@ -1,17 +1,24 @@
 # PC System Lab
 
-自作PCの構成と、冷却、GPU、CPUを調整してきた過程をまとめています。設定値だけを並べるのではなく、何が気になり、どの条件で測り、結果をどう判断したのかを残すための公開版です。
+自作PCの構成と、冷却、GPU、CPUを調整してきた過程を記録しています。設定値だけでなく、何が気になり、どの条件で測り、結果をどう判断したのかも残しています。
 
 ![現在使っているPCの内部構成](docs/images/current-pc-interior.jpg)
+
+## いま取り組んでいること
+
+CPUの電圧を詰め、FF14を長時間回したあと、普段使うブラウザでも倍率を変えて性能と消費電力を比べています。7～9コア使用時は47倍に決め、残る1～6コアの倍率を考えているところです。
+
+- 最新の記事：[40倍から探り直して、7～9コアは47倍にする](articles/system-tuning-2026-09-07-browser-ratio-balance.md)
+- 今回の調整を最初から：[ファンを静かにしたあと、CPU電圧をもう一度詰める](articles/system-tuning-2026-09-05-ffxiv-voltage.md)
 
 ## まず読む
 
 | 知りたいこと | 読むもの |
 | --- | --- |
 | PCの構成と調整方針 | [現在使っているPC](docs/current-pc.md) |
-| 冷却からCPU調整までの流れ | [2026年 自作PCチューニング記録](articles/system-tuning-2026-09-01-index.md) |
-| CPU調整の現在の到達点 | [最適なコア数を探すところから、FF14で使う電力を選ぶところへ](articles/system-tuning-2026-09-03-cpu-efficiency.md) |
-| FF14ベンチマークで見る現在の4K性能と電力効率 | [FF14ベンチマークを4K最高品質で回し、このPCの実力を測り直す](articles/system-tuning-2026-09-03-ffxiv-maximum-quality.md) |
+| 冷却からCPU調整までの流れ | [自作PCチューニング記録](articles/system-tuning-2026-09-01-index.md) |
+| FF14で使うCPU倍率と電力 | [最適なコア数を探すところから、FF14で使う電力を選ぶところへ](articles/system-tuning-2026-09-03-cpu-efficiency.md) |
+| FF14ベンチマークの4K性能と電力効率 | [FF14ベンチマークを4K最高品質で回し、このPCの実力を測り直す](articles/system-tuning-2026-09-03-ffxiv-maximum-quality.md) |
 | 公開している記事の一覧 | [記事一覧](articles/README.md) |
 
 この公開版には、個人情報や端末固有情報を含み得るEvent Log、Raw Data、ソフトウェア一覧、運用設定、完全な会話ログを含めていません。記事中の数値は、非公開の記録用リポジトリに保存した測定結果をもとにしています。
