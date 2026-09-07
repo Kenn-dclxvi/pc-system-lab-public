@@ -16,3 +16,9 @@
 | 10 | [DirectXエラーが続いたので、全コア40倍からやり直す](system-tuning-2026-09-06-ffxiv-long-run.md) |
 | 11 | [52倍を戻す前に、ブラウザで高倍率の出番を調べる](system-tuning-2026-09-06-browser-high-ratios.md) |
 | 12 | [40倍から探り直して、7～9コアは47倍にする](system-tuning-2026-09-07-browser-ratio-balance.md) |
+
+## ケース・冷却編の補足
+
+[GPUの前に導風板を入れてみる](system-tuning-case-air-guide.md)
+
+段ボールで仕切りを作って付け外しを試し、底面ファンの増速・停止とサイドパネル開放も比較しました。プラ板へ作り直したところまで、写真とともに振り返ります。
