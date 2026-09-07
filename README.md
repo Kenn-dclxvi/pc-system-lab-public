@@ -4,6 +4,8 @@
 
 ![現在使っているPCの内部構成](docs/images/current-pc-interior.jpg)
 
+[現在使っているPCの構成と調整方針](docs/current-pc.md)
+
 ## いま取り組んでいること
 
 CPUの電圧を詰め、FF14を長時間回したあと、普段使うブラウザでも倍率を変えて性能と消費電力を比べています。7～9コア使用時は47倍に決め、残る1～6コアの倍率を考えているところです。
@@ -11,15 +13,11 @@ CPUの電圧を詰め、FF14を長時間回したあと、普段使うブラウ�
 - 最新の記事：[40倍から探り直して、7～9コアは47倍にする](articles/system-tuning-2026-09-07-browser-ratio-balance.md)
 - 今回の調整を最初から：[ファンを静かにしたあと、CPU電圧をもう一度詰める](articles/system-tuning-2026-09-05-ffxiv-voltage.md)
 
-## まず読む
+## 自作PCチューニング記録
 
-| 知りたいこと | 読むもの |
-| --- | --- |
-| PCの構成と調整方針 | [現在使っているPC](docs/current-pc.md) |
-| 冷却からCPU調整までの流れ | [自作PCチューニング記録](articles/system-tuning-2026-09-01-index.md) |
-| FF14で使うCPU倍率と電力 | [最適なコア数を探すところから、FF14で使う電力を選ぶところへ](articles/system-tuning-2026-09-03-cpu-efficiency.md) |
-| FF14ベンチマークの4K性能と電力効率 | [FF14ベンチマークを4K最高品質で回し、このPCの実力を測り直す](articles/system-tuning-2026-09-03-ffxiv-maximum-quality.md) |
-| 公開している記事の一覧 | [記事一覧](articles/README.md) |
+AIOの故障をきっかけに、冷却からGPU、CPUへと調整が広がっていった経緯を書いています。[連載の索引](articles/system-tuning-2026-09-01-index.md)に各記事のあらすじと読む順番をまとめています。
+
+[記事一覧](articles/README.md)から各記事を直接読めます。
 
 この公開版には、個人情報や端末固有情報を含み得るEvent Log、Raw Data、ソフトウェア一覧、運用設定、完全な会話ログを含めていません。記事中の数値は、非公開の記録用リポジトリに保存した測定結果をもとにしています。
 
