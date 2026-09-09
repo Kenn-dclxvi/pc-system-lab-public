@@ -17,7 +17,7 @@
 | GPU | ASUS ROG-STRIX-RTX3080-O10G-GAMING、10 GiB GDDR6X |
 | CPUクーラー | NZXT KRAKEN Plus 360 RGB v2 |
 | ストレージ | Samsung 970 EVO Plus 500GB |
-| 電源 | Super Flower LEADEX PLATINUM SE（定格容量と正確な型番は未確認） |
+| 電源 | Super Flower LEADEX PLATINUM SE 1000W |
 
 ## 調整方針
 
