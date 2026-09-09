@@ -1,6 +1,6 @@
 # 40倍から探り直して、7～9コアは47倍にする
 
-[← ブラウザ高倍率編](./system-tuning-2026-09-06-browser-high-ratios.md) / [索引](./system-tuning-2026-09-01-index.md)
+[← ブラウザ高倍率編](./system-tuning-2026-09-06-browser-high-ratios.md) / [索引](./system-tuning-2026-09-01-index.md) / [CPU検証の締めくくり →](./system-tuning-cpu-validation-complete.md)
 
 ブラウザでは、4コアまで51倍にしても性能の上積みが見えませんでした。50倍を使う範囲も減らせるのではないかと思い、FF14のときのように倍率を下げながら調べることにしました。ただ、1設定に約1時間かけていては、なかなか進みません。
 
@@ -120,6 +120,6 @@ Speedometerの全20種類のテストは残し、暖機を1反復、本測定を
 
 Codexからは、まず1～6コアを50倍にして47倍の基準と比べ、そこから49倍へ下げたり、4コアまでに範囲を狭めたりする案が出ました。
 
-ただ、4コア以下の高倍率は、先ほどの試験でもほとんど観測できませんでした。残しておきたい気持ちはありますが、ここを上げて普段の性能が変わるとは、あまり期待していません。
+4コアまでの高倍率は、普段のために残しておきたいところです。同じブラウザベンチでそこだけを変えても差は小さそうなので、1～6コア全体の配分を考えることにしました。
 
-[← ブラウザ高倍率編](./system-tuning-2026-09-06-browser-high-ratios.md) / [索引](./system-tuning-2026-09-01-index.md)
+[← ブラウザ高倍率編](./system-tuning-2026-09-06-browser-high-ratios.md) / [索引](./system-tuning-2026-09-01-index.md) / [CPU検証の締めくくり →](./system-tuning-cpu-validation-complete.md)

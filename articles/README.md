@@ -16,6 +16,8 @@
 | 10 | [DirectXエラーが続いたので、全コア40倍からやり直す](system-tuning-2026-09-06-ffxiv-long-run.md) |
 | 11 | [52倍を戻す前に、ブラウザで高倍率の出番を調べる](system-tuning-2026-09-06-browser-high-ratios.md) |
 | 12 | [40倍から探り直して、7～9コアは47倍にする](system-tuning-2026-09-07-browser-ratio-balance.md) |
+| 13 | [ブラウザの測り方を揃え直して、CPU調整を一区切りにする](system-tuning-cpu-validation-complete.md) |
+| 14 | [RTX 3080を750 mVまで下げて、普段のゲームで確かめる](system-tuning-gpu-750mv-dlss.md) |
 
 ## ケース・冷却編の補足
 
