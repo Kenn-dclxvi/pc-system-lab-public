@@ -10,10 +10,15 @@
 
 CPUの倍率と電圧の調整は一区切りにしました。並行してRTX 3080を750 mVまで下げ、DLSS常時適用とPreset K指定で普段のゲームの見え方も確認しました。その設定で約8時間20分のFF14を回し、締めの長時間試験まで終えています。
 
-- 最新の記事：[ケースの冷却を確かめてから、UVとファンの下限を詰める](articles/system-tuning-cooling-after-undervolt.md)
 - GPUの調整：[RTX 3080を750 mVまで下げて、普段のゲームで確かめる](articles/system-tuning-gpu-750mv-dlss.md)
 - CPU検証の締めくくり：[ブラウザの測り方を揃え直して、CPU調整を一区切りにする](articles/system-tuning-cpu-validation-complete.md)
 - 今回の調整を最初から：[ファンを静かにしたあと、CPU電圧をもう一度詰める](articles/system-tuning-2026-09-05-ffxiv-voltage.md)
+
+## これまでの調整のまとめ
+
+[ケースの冷却を確かめてから、UVとファンの下限を詰める](articles/system-tuning-cooling-after-undervolt.md)
+
+ケースの冷却確認からCPU・GPUの低電圧化、ファンの下限調整まで、冷却と静音化の経緯をまとめて振り返ります。
 
 ## 自作PCチューニング記録
 
