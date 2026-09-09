@@ -68,9 +68,15 @@ CPUの倍率を試している間に、GPUの電圧ももう少し下げてみ�
 
 ベンチでは200 W弱まで下がり、普段のゲームも滑らかに動いています。DLSSの見え方も気にならないなら、RTX 3080を買い替える理由はまた一つ減ったように感じます。
 
-## NVIDIA Appの設定も変えてみる
+## 表示品質を調べて、Preset Kを試す
 
-その後、NVIDIA AppでDLSSのPreset Kを指定し、垂直同期も「高速」へ変更しました。
+DLSSを使ったときの表示品質についても調べてみました。そこでたどり着いたのが、Preset Kです。
+
+DLSS Super Resolutionは、低い解像度で描いた画像を高い解像度に再構成する機能です。QualityやPerformanceは元にする画像の解像度に関わる設定で、Preset Kは再構成に使うモデルの指定です。KはDLSS 4で登場したTransformer方式のモデルで、動いているときの画像の安定性や残像、細部の見え方を改善したものと説明されています。[NVIDIAのモデルと上書き設定の説明](https://www.nvidia.com/en-us/geforce/news/nvidia-app-update-dlss-overrides-and-more/)
+
+FF14でDLSSを使いながら、動いたときのぼけや細かな輪郭のちらつきを減らしたいときに、モデルの変更が候補になります。公式フォーラムにも、DLSS/DLAAでKを使うと見え方がよくなったという[プレイヤーの報告](https://forum.square-enix.com/ffxiv/threads/519466-Is-DLSS-FSR-broken?p=6766584)があります。
+
+NVIDIA Appには、ゲームで使うDLSSのモデルを上書きする設定があります。今回はここでPreset Kを指定し、垂直同期も「高速」へ変更しました。
 
 同じ1620 MHz／750 mV、4K・DLSS常時適用で、もう一度ベンチを回しました。
 
@@ -86,6 +92,8 @@ CPUの倍率を試している間に、GPUの電圧ももう少し下げてみ�
 © SQUARE ENIX
 
 性能も平均電力もほぼ同じで、前に気になっていたボケやにじみはほぼなくなりました。実測クロックは今回は1620～1635 MHzで、平均1628 MHzです。電圧は750 mVのままでした。
+
+モデルの選び方には、解像度とGPUの世代も関係します。NVIDIAの推奨設定では、元の解像度で輪郭を整えるDLAAや、Quality・BalancedにはKを割り当てています。より低い解像度から拡大するPerformanceにはM、4KのUltra PerformanceにはLという使い分けです。MとLは新しいDLSS 4.5のモデルですが、私のRTX 3080を含むRTX 20／30シリーズでは処理の負担が大きく、Kの方が画質と性能の釣り合いを取りやすい場合があるとも説明されています。[NVIDIAのプリセット選択の説明](https://www.nvidia.com/en-us/geforce/news/dlss-4-5-dynamic-multi-frame-gen-6x-2nd-gen-transformer-super-res/)
 
 普段のゲームは基本的に60 fpsで遊んでいます。新生FF14も、60 fpsで安定して動くことを前提に開発が始まったゲームです。[フレームレートについての公式説明](https://jp.finalfantasyxiv.com/lodestone/news/detail/057d83c566b5c3894deb7d4a0a723634b45866b1)。過去には、60 fpsから上限なしへ変えると布の裾や耳飾りの揺れが小さくなるという報告も、公式フォーラムに上がっていました。[揺れの表現に関する不具合報告](https://forum.square-enix.com/ffxiv/threads/234173)。
 
