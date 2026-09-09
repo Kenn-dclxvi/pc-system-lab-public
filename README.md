@@ -1,10 +1,16 @@
+![PC System Lab — 気づく、測る、考える、試す、確かめる](docs/images/pc-system-lab-header.jpg)
+
 # PC System Lab
 
 自作PCの構成と、冷却、GPU、CPUを調整してきた過程を記録しています。設定値だけでなく、何が気になり、どの条件で測り、結果をどう判断したのかも残しています。
 
-![現在使っているPCの内部構成](docs/images/current-pc-interior.jpg)
-
 [現在使っているPCの構成と調整方針](docs/current-pc.md)
+
+## BIOS・アプリの設定
+
+[このPCのBIOS・アプリ設定](articles/system-tuning-settings.md)
+
+CPUの倍率と電圧、メモリ、GPU Tweak III、Fan Xpert、NZXT CAM、DLSSの設定をまとめています。記事冒頭の一覧から、見たい設定表へ直接移動できます。
 
 ## いま取り組んでいること
 

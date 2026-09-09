@@ -2,6 +2,12 @@
 
 調整の経緯は、[自作PCチューニング記録の索引](system-tuning-2026-09-01-index.md)から順に読めます。
 
+## 設定を確認する
+
+[このPCのBIOS・アプリ設定](system-tuning-settings.md)
+
+CPU・メモリ・GPU・ファン・DLSSの設定を、設定する場所ごとにまとめています。各設定表から、選んだ経緯の記事へも進めます。
+
 ## これまでの調整のまとめ
 
 [ケースの冷却を確かめてから、UVとファンの下限を詰める](system-tuning-cooling-after-undervolt.md)
