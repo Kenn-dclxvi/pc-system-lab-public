@@ -1,7 +1,5 @@
 ![PC System Lab — 気づく、測る、考える、試す、確かめる](docs/images/pc-system-lab-header.jpg)
 
-# PC System Lab
-
 自作PCの構成と、冷却、GPU、CPUを調整してきた過程を記録しています。設定値だけでなく、何が気になり、どの条件で測り、結果をどう判断したのかも残しています。
 
 [現在使っているPCの構成と調整方針](docs/current-pc.md)
