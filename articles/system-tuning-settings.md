@@ -27,26 +27,28 @@ CPUの倍率と電圧、GPUの低電圧化、ファンの静音化と調整を�
 
 | 使用コア数 | 上限倍率 |
 | --- | ---: |
-| 1～2コア | 52 |
-| 3～4コア | 51 |
-| 5～6コア | 50 |
-| 7～9コア | 47 |
+| 1コア | 52 |
+| 2コア | 51 |
+| 3コア | 50 |
+| 4コア | 49 |
+| 5コア | 48 |
+| 6～9コア | 47 |
 | 10コア | 40 |
 
-少数コアの高倍率を残し、使うコア数が増えたところで倍率を下げています。ブラウザの比較では7～9コアを47倍にし、普段の操作でも51倍・52倍が使われているところを確認できました。
+少数コアの高倍率を残し、使うコア数が増えたところで倍率を下げています。上の表は、1～2コア52倍・3～4コア51倍・5～6コア50倍での調整を終えたあと、普段の動きを見やすくするために細かく分けた配分です。ブラウザ性能はほぼ同じだったので、いまはこの設定で様子を見ています。[倍率を分け直した経緯](./system-tuning-cpu-ratio-reconsideration.md)
 
 <details>
 <summary>BIOSの入力値：Turbo Ratio Cores / Turbo Ratio Limit</summary>
 
 | 行 | Turbo Ratio Cores | Turbo Ratio Limit |
 | --- | ---: | ---: |
-| 0 | 2 | 52 |
-| 1 | 4 | 51 |
-| 2 | 6 | 50 |
-| 3 | 7 | 47 |
-| 4 | 8 | 47 |
-| 5 | 9 | 47 |
-| 6 | 10 | 40 |
+| 0 | 1 | 52 |
+| 1 | 2 | 51 |
+| 2 | 3 | 50 |
+| 3 | 4 | 49 |
+| 4 | 5 | 48 |
+| 5 | 6 | 47 |
+| 6 | 9 | 47 |
 | 7 | 10 | 40 |
 
 </details>
@@ -89,7 +91,7 @@ CPU電圧はAutoを使い、AC Load Lineを0.300 mΩ、V/F Point 7を−80 mVに
 | CPU Core/Cache Current Limit Max. | 245.00 A |
 | CPU Current Capability | 140% |
 
-AC Load LineとV/F Pointを見直した経緯は[全コア40倍からのやり直し](./system-tuning-2026-09-06-ffxiv-long-run.md)、最後に使うことにした倍率との組み合わせは[CPU検証の締めくくり](./system-tuning-cpu-validation-complete.md)に記録しています。
+AC Load LineとV/F Pointを見直した経緯は[全コア40倍からのやり直し](./system-tuning-2026-09-06-ffxiv-long-run.md)、この電圧設定で調整を一区切りにした経緯は[CPU検証の締めくくり](./system-tuning-cpu-validation-complete.md)に記録しています。その後の倍率の再検討でも、電圧設定は引き継いでいます。
 
 <a id="cpu-features"></a>
 

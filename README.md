@@ -18,6 +18,12 @@ CPUの倍率と電圧の調整は一区切りにしました。並行してRTX 3
 - CPU検証の締めくくり：[ブラウザの測り方を揃え直して、CPU調整を一区切りにする](articles/system-tuning-cpu-validation-complete.md)
 - 今回の調整を最初から：[ファンを静かにしたあと、CPU電圧をもう一度詰める](articles/system-tuning-2026-09-05-ffxiv-voltage.md)
 
+## その後のCPU倍率の見直し
+
+[CPUの倍率を1コアずつ分けて、普段の動きを見てみる](articles/system-tuning-cpu-ratio-reconsideration.md)
+
+一区切りのあと、高倍率の範囲を1コアずつ分けてブラウザで比べ直しました。性能はほぼ同じだったので、いまはこの配分で普段の動きを見ています。
+
 ## これまでの調整のまとめ
 
 [ケースの冷却を確かめてから、UVとファンの下限を詰める](articles/system-tuning-cooling-after-undervolt.md)
