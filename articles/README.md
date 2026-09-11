@@ -33,6 +33,7 @@ CPU・メモリ・GPU・ファン・DLSSの設定を、設定する場所ごと�
 | 13 | [ブラウザの測り方を揃え直して、CPU調整を一区切りにする](system-tuning-cpu-validation-complete.md) |
 | 14 | [RTX 3080を750 mVまで下げて、普段のゲームで確かめる](system-tuning-gpu-750mv-dlss.md) |
 | 15 | [CPUの倍率を1コアずつ分けて、普段の動きを見てみる](system-tuning-cpu-ratio-reconsideration.md) |
+| 16 | [電源を入れていても気にならない。深夜にPCの音を測ってみる](system-tuning-quiet-pc-noise.md) |
 
 ## ケース・冷却編の補足
 
